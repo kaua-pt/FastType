@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:FastType"
+    x:Class="FastType.GrialEasyNavigationPage"
+    BackgroundColor="{ DynamicResource BackgroundSecondaryColor }">
+    <Grid RowDefinitions="100,*">
+        <Image
+            Margin="0,-20,0,5"
+            Source="https://d3nz6a95rn0zd2.cloudfront.net/v4.0/player.png"
+            WidthRequest="120"
+            HorizontalOptions="Start"
+        />
+
+        <ScrollView
+            Padding="35,0,30,20"
+            Grid.Row="1">
+            <VerticalStackLayout
+                BindableLayout.ItemsSource="{ Binding . }"
+                Spacing="22">
+                <BindableLayout.ItemTemplate>
+                    <DataTemplate>
+                        <Grid
+                            ColumnDefinitions="30,*"
+                            ColumnSpacing="20">
+                            <Grid.GestureRecognizers>
+                                <TapGestureRecognizer Command="{ Binding OpenCommand }" />
+                            </Grid.GestureRecognizers>
+
+                            <Label
+                                TextColor="{ DynamicResource PrimaryColor }"
+                                VerticalOptions="Center"
+                                FontSize="24"
+                                FontFamily="Material Design Icons"
+                                Text="{ x:Static local:MaterialCommunityIconsFont.FileDocumentOutline }"
+                            />
+                            <Label
+                                Grid.Column="1"
+                                FontSize="20"
+                                Text="{ Binding Name }"
+                            />
+                        </Grid>
+                    </DataTemplate>
+                </BindableLayout.ItemTemplate>
+            </VerticalStackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>

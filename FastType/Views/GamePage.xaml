@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:FastType"
+    xmlns:vm="clr-namespace:FastType.ViewModels"
+    x:Class="FastType.GamePage"
+    BackgroundColor="{ DynamicResource BackgroundColor }"
+    Title="">
+    <ScrollView>
+        <Grid
+            RowDefinitions="*,*,*"
+            Padding="{ OnIdiom
+                Phone=24,
+                Tablet='100,24'
+            }">
+
+            <VerticalStackLayout
+                VerticalOptions="Center"
+                Margin="0,0,0,10">
+                <Label
+                    Text="VASCO"
+                    FontSize="{ StaticResource LargeTitleFontSize }"
+                    HorizontalOptions="Center"
+                />
+
+                <Label
+                    Text="Digite a palavra acima"
+                    FontSize="12"
+                    TextColor="{ DynamicResource TextSecondaryColor }"
+                    Margin="0,8,0,0"
+                    HorizontalTextAlignment="Center"
+                />
+
+            </VerticalStackLayout>
+
+            <VerticalStackLayout
+                Grid.Row="1"
+                Margin="0,0,0,10"
+                VerticalOptions="Start"
+                Spacing="30">
+
+                <Entry Placeholder="Plaavra" HorizontalTextAlignment="Center"/>
+
+                <Button
+                    Text="Enviar"
+                    Style="{ StaticResource PrimaryActionButtonStyle }"
+                    Command="{Binding ConfirmWordCommand}"
+                />
+            </VerticalStackLayout>
+
+            <VerticalStackLayout
+                Grid.Row="2"
+                VerticalOptions="End"
+                Spacing="26"
+                Margin="0,0,0,30">
+
+
+                <HorizontalStackLayout HorizontalOptions="Center">
+                    <Button
+                        Text="Desistir"
+                        HorizontalOptions="End"
+                        VerticalOptions="Start"
+                        Style="{ DynamicResource LinkButtonStyle }"
+                    />
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
+        </Grid>
+    </ScrollView>
+</ContentPage>

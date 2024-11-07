@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:grial="http://uxdivers.com/grial" xmlns:local="clr-namespace:FastType"
+    x:Class="FastType.LightTheme">
+
+    <!-- MAIN FONT -->
+    <x:String
+        x:Key="AppFontFamily">Poppins</x:String>
+
+    <x:Double
+        x:Key="SmallFontSize">11</x:Double>
+    <x:Double
+        x:Key="BaseFontSize">13</x:Double>
+    <x:Double
+        x:Key="LargeFontSize">15</x:Double>
+    <x:Double
+        x:Key="XLargeFontSize">18</x:Double>
+    <x:Double
+        x:Key="SmallTitleFontSize">18</x:Double>
+    <x:Double
+        x:Key="TitleFontSize">24</x:Double>
+    <x:Double
+        x:Key="LargeTitleFontSize">28</x:Double>
+
+    <!-- ############################## DESIGN SYSTEM ############################## -->
+
+    <!-- PRIMARY COLORS -->
+    <Color
+        x:Key="PrimaryColor">#FF132D46</Color>
+    <Color
+        x:Key="PrimaryHighlightColor">#FF1B4063</Color>
+    <Color
+        x:Key="PrimaryVariantColor">#FF337ABF</Color>
+
+    <!-- BACKGROUND COLORS -->
+    <Color
+        x:Key="BackgroundColor">#FFFFFFFF</Color>
+    <Color
+        x:Key="BackgroundSecondaryColor">#FFFFFFFF</Color>
+    <Color
+        x:Key="BackgroundTertiaryColor">#FFEEEEEE</Color>
+
+    <!-- TEXT COLORS -->
+    <Color
+        x:Key="TextColor">#12141B</Color>
+    <Color
+        x:Key="TextSecondaryColor">#6F7A8F</Color>
+    <Color
+        x:Key="TextTertiaryColor">#A2AECC</Color>
+
+    <!-- SUCCESS COLORS -->
+    <Color
+        x:Key="SuccessColor">#46C771</Color>
+    <Color
+        x:Key="SuccessSecondaryColor">#E8F1EB</Color>
+    <Color
+        x:Key="SuccessTertiaryColor">#1DAB52</Color>
+
+    <!-- WARNING COLORS -->
+    <Color
+        x:Key="WarningColor">#F9B300</Color>
+    <Color
+        x:Key="WarningSecondaryColor">#FFF8D4</Color>
+    <Color
+        x:Key="WarningTertiaryColor">#CC9C07</Color>
+
+    <!-- ERROR COLORS -->
+    <Color
+        x:Key="ErrorColor">#FF2525</Color>
+    <Color
+        x:Key="ErrorSecondaryColor">#FFE3E3</Color>
+    <Color
+        x:Key="ErrorTertiaryColor">#BD3636</Color>
+
+    <!-- INFO COLORS -->
+    <Color
+        x:Key="InfoColor">#3F75FF</Color>
+    <Color
+        x:Key="InfoSecondaryColor">#D9E3FF</Color>
+    <Color
+        x:Key="InfoTertiaryColor">#6590FF</Color>
+
+    <!-- DISABLED COLORS -->
+    <Color
+        x:Key="DisabledColor">#A2AECC</Color>
+    <Color
+        x:Key="DisabledSecondaryColor">#DCE1EE</Color>
+    <Color
+        x:Key="DisabledTertiaryColor">#F1F3F8</Color>
+
+    <!-- OVERLAY COLORS -->
+    <Color
+        x:Key="OverlayColor">#CC000000</Color>
+    <Color
+        x:Key="OverlayVariantColor">#55000000</Color>
+    <Color
+        x:Key="OverlayHighlightColor">#33FFFFFF</Color>
+
+    <!-- ADITIONAL COLORS -->
+    <Color
+        x:Key="RatingColor">#FF602E</Color>
+    <Color
+        x:Key="OnSurfaceColor">#FFFFFF</Color>
+    <Color
+        x:Key="FavoriteColor">#FF2525</Color>
+
+
+    <grial:XamlColorAlias
+        x:Key="TextOnSurfaceColor"
+        Value="{ StaticResource OnSurfaceColor }" />
+
+    <grial:XamlColorAlias
+        x:Key="PrimaryActionButtonTextColor"
+        Value="{ StaticResource TextOnSurfaceColor }" />
+
+    <grial:XamlColorAlias
+        x:Key="TagItemBackgroundColor"
+        Value="{ StaticResource PrimaryVariantColor }" />
+
+    <grial:XamlColorAlias
+        x:Key="TagItemTextColor"
+        Value="{ StaticResource PrimaryColor }" />
+
+    <grial:XamlColorAlias
+        x:Key="EntryAndEditorsBackgroundColor"
+        Value="{ StaticResource BackgroundTertiaryColor }" />
+
+    <grial:XamlColorAlias
+        x:Key="EntryAndEditorsBorderColor"
+        Value="{ StaticResource BackgroundTertiaryColor }" />
+
+    <grial:XamlColorAlias
+        x:Key="ListSeparatorColor"
+        Value="{ StaticResource DisabledSecondaryColor }" />
+
+    <x:Double
+        x:Key="BaseButtonHeight">54</x:Double>
+
+    <x:Int32
+        x:Key="BaseButtonCornerRadius">16</x:Int32>
+
+    <x:Double
+        x:Key="BaseButtonBorderWith">0</x:Double>
+
+    <Thickness
+        x:Key="TagItemMargin">4,0</Thickness>
+
+    <Thickness
+        x:Key="TagItemPadding">10,0</Thickness>
+
+    <x:Double
+        x:Key="TagItemFontSize">12</x:Double>
+
+    <x:Single
+        x:Key="EntryAndEditorsBorderWidth">0</x:Single>
+
+    <x:Single
+        x:Key="EntryAndEditorsHorizontalPadding">12</x:Single>
+
+    <x:Double
+        x:Key="EntryHeightRequest">54</x:Double>
+
+    <x:Single
+        x:Key="EntryBorderCornerRadius">16</x:Single>
+
+    <grial:BorderStyle
+        x:Key="EditorBorderStyle">RoundRect</grial:BorderStyle>
+
+</ResourceDictionary>

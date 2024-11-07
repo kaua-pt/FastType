@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:FastType"
+    x:Class="FastType.NewsSourcesPage"
+    BackgroundColor="{ DynamicResource BackgroundColor }"
+    Title="Sources"
+    IconImageSource="earth.png"
+    x:Name="root">
+
+    <!-- News Sources List -->
+    <CollectionView
+        Margin="{ OnIdiom
+            Phone='24',
+            Tablet='100,24'
+        }"
+        VerticalScrollBarVisibility="Never">
+        <CollectionView.ItemsLayout>
+            <GridItemsLayout
+                Orientation="Vertical"
+                Span="2"
+                VerticalItemSpacing="16"
+                HorizontalItemSpacing="16"
+            />
+        </CollectionView.ItemsLayout>
+        <CollectionView.ItemTemplate>
+            <DataTemplate>
+                <!-- CollectionView Template -->
+                <!-- Rounded Corners Container -->
+                <Border
+                    StrokeShape="RoundRectangle 16"
+                    BackgroundColor="{ DynamicResource BackgroundSecondaryColor }">
+
+                    <!-- Content -->
+                    <Grid Margin="0,16">
+                        <Grid
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center"
+                            RowDefinitions="Auto,Auto,Auto"
+                            RowSpacing="10">
+                            <!-- Icon Image -->
+                            <Border
+                                StrokeShape="RoundRectangle 16"
+                                Padding="10"
+                                HeightRequest="54"
+                                WidthRequest="54"
+                                StrokeThickness="1"
+                                Stroke="{ DynamicResource BackgroundTertiaryColor }"
+                                BackgroundColor="Transparent">
+                            </Border>
+                        </Grid>
+                    </Grid>
+                </Border>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+
+    </CollectionView>
+</ContentPage>
