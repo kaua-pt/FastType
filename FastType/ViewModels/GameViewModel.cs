@@ -1,8 +1,9 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using FastType.Services;
-using Newtonsoft.Json;
 using System.Collections.ObjectModel;
+using System.Reflection;
+using System.Text.Json;
 
 namespace FastType.ViewModels;
 
@@ -19,30 +20,31 @@ public partial class GameViewModel : ObservableObject
     [ObservableProperty]
     private int score = 0;
 
-    public GameViewModel()
+    public async Task LoadWordsAsync()
     {
-        LoadWords();
-    }
-
-    private void LoadWords()
-    {
-        Words.Clear();
-
-        var filePath = "Data/Words.json";
-        if (File.Exists(filePath))
+        if (Words.Count <= 100)
         {
-            string jsonData = File.ReadAllText(filePath);
-            List<string> wordsJson = JsonConvert.DeserializeObject<List<string>>(jsonData) ?? [];
-            if (wordsJson.Count == 0)
-                return;
-            foreach (var word in wordsJson)
-                Words.Add(word);
+            Words.Clear();
+
+            var assembly = Assembly.GetExecutingAssembly();
+            using Stream stream = assembly.GetManifestResourceStream("FastType.Resources.Raw.Words.json")!;
+            using StreamReader reader = new(stream);
+
+            string jsonContent = await reader.ReadToEndAsync();
+            var wordList = JsonSerializer.Deserialize<Dictionary<string, List<string>>>(jsonContent);
+
+            if (wordList != null && wordList.ContainsKey("words"))
+                foreach (var word in wordList["words"])
+                    Words.Add(word);
         }
+
+        SelectedWord = Words[Random.Shared.Next(0, Words.Count - 1)];
     }
 
     [RelayCommand]
     public async Task ConfirmWord()
     {
-        ScoreService.Match(selectedWord, writtenWord);
+        var MatchScore = ScoreService.Match(SelectedWord, WrittenWord);
+
     }
 }

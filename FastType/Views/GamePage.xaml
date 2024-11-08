@@ -40,7 +40,7 @@
                 VerticalOptions="Start"
                 Spacing="30">
 
-                <Entry Placeholder="Plaavra" HorizontalTextAlignment="Center"/>
+                <Entry Placeholder="Palavra" HorizontalTextAlignment="Center"/>
 
                 <Button
                     Text="Enviar"

@@ -5,9 +5,17 @@ namespace FastType;
 
 public partial class GamePage : ContentPage
 {
-    public GamePage(GameViewModel gameViewModel)
+    public GameViewModel GameViewModel { get; set; }
+    public GamePage()
     {
         InitializeComponent();
-        BindingContext = gameViewModel;
+        GameViewModel = new GameViewModel();
+        BindingContext = GameViewModel;
+    }
+
+    protected override async void OnAppearing()
+    {
+        base.OnAppearing();
+        await GameViewModel.LoadWordsAsync();
     }
 }
