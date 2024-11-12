@@ -7,7 +7,7 @@ using System.Text.Json;
 
 namespace FastType.ViewModels;
 
-public partial class GameViewModel : ObservableObject
+public partial class GameViewModel : CommunityToolkit.Mvvm.ComponentModel.ObservableObject
 {
     private ObservableCollection<string> Words { get; } = [];
 
@@ -18,7 +18,7 @@ public partial class GameViewModel : ObservableObject
     private string writtenWord = string.Empty;
 
     [ObservableProperty]
-    private int score = 0;
+    private double score = 0;
 
     public async Task LoadWordsAsync()
     {
@@ -38,13 +38,46 @@ public partial class GameViewModel : ObservableObject
                     Words.Add(word);
         }
 
-        SelectedWord = Words[Random.Shared.Next(0, Words.Count - 1)];
+        _ = SelectWord();
     }
 
     [RelayCommand]
-    public async Task ConfirmWord()
+    public void ConfirmWord()
     {
+        if (WrittenWord.Length == 0)
+            return;
         var MatchScore = ScoreService.Match(SelectedWord, WrittenWord);
+        Score += MatchScore;
+
+        var wasSelected = SelectWord();
+        WrittenWord = string.Empty;
+        if (!wasSelected)
+            FinishGame();
+
+        return;
+    }
+
+    [RelayCommand]
+    public void Surrender()
+    {
 
     }
+
+    private bool SelectWord()
+    {
+        if (Words.Count == 0)
+            return false;
+
+        var randomWordIdx = Random.Shared.Next(0, Words.Count - 1);
+        SelectedWord = Words[randomWordIdx];
+        Words.RemoveAt(randomWordIdx);
+        return true;
+    }
+
+    private void FinishGame()
+    {
+
+    }
+
+
 }
