@@ -76,6 +76,7 @@
 	</ItemGroup>
 	<ItemGroup>
 	  <None Remove="ViewModels\Data\Words.json" />
+		<None Remove="ViewModels\Data\News.json" />
 	</ItemGroup>
 	<ItemGroup Condition="'$(TargetFramework)' == 'net8.0-ios'">
 	  <PackageReference Version="4.2.114" Include="UXD.Grial.Basic" />
@@ -85,5 +86,6 @@
 	</ItemGroup>
 	<ItemGroup>
 	  <EmbeddedResource Include="Resources\Raw\Words.json" />
+		<EmbeddedResource Include="ViewModels\Data\News.json" />
 	</ItemGroup>
 </Project>

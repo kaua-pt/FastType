@@ -1,0 +1,469 @@
+{
+  "[grial-metadata]": "id: Grial#News.json version: 1.0.1",
+  "News": {
+    "$id": "news",
+    "List": [
+      {
+        "$id": "news-1",
+        "MainImage": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_01.png",
+        "DetailImage": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_01a.png",
+        "ListImage": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_01a.png",
+        "Title": "Plug-In Car Sales Decreased 1% In 2023",
+        "Section": "Technology",
+        "Length": "6 min read",
+        "When": "Apr 19,2023",
+        "SourceLogo": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_source_01.png",
+        "SourceId": "EV Journal",
+        "Author": "Jean Prangley",
+        "IsFavorite": true,
+        "IsPro": false,
+        "Body": "In March, new passenger car registrations in Germany increased by 16.6 percent year-over-year to 281,361. During the first quarter of 2023, a total of 666,818 cars were registered (up 6.5% year-over-year).\n\nMeanwhile, the plug-in electric car segment noted a slight decline of 1.4 percent year-over-year to 60,901 registrations. That's because of the collapse of the plug-in hybrid sales (without a $4,930/€4,500 incentive this year). Plug-in hybrids noted 16,776 registrations (down 39 percent), which is 6.0 percent of the total volume.\n\nWell, with our homemade dumpling recipe, we’re bringing that warm, fuzzy feeling right to your very own kitchen table. ",
+        "BodyImage": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_01b.png",
+        "BodyImageCopy": "Data analysis shows increasing values",
+        "SubSectionTitle": "Top brands",
+        "SubSection": "In March, Tesla once again was the top brand in terms of plug-in electric car registrations (8,703 units).\nHowever, it's worth noting that Volkswagen (7,422 BEV/PHEV) and Mercedes-Benz (7,342 BEV/PHEV) were not far behind. The main advantage of Tesla is that it's selling only BEVs, and here the difference is bigger (Volkswagen noted 6,471 BEVs while Mercedes-Benz sold 3,269 BEVs)."
+      },
+      {
+        "$id": "news-2",
+        "MainImage": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_02.png",
+        "DetailImage": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_02a.png",
+        "ListImage": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_02a.png",
+        "Title": "Small acts of kindness matter",
+        "Section": "Life",
+        "Length": "6 min read",
+        "When": "Apr 19,2023",
+        "SourceLogo": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_source_02.png",
+        "SourceId": "CEH News",
+        "Author": "Bogdán Norbert",
+        "IsFavorite": true,
+        "IsPro": false,
+        "Body": "In March, new passenger car registrations in Germany increased by 16.6 percent year-over-year to 281,361. During the first quarter of 2023, a total of 666,818 cars were registered (up 6.5% year-over-year).\n\nMeanwhile, the plug-in electric car segment noted a slight decline of 1.4 percent year-over-year to 60,901 registrations. That's because of the collapse of the plug-in hybrid sales (without a $4,930/€4,500 incentive this year). Plug-in hybrids noted 16,776 registrations (down 39 percent), which is 6.0 percent of the total volume.\n\nWell, with our homemade dumpling recipe, we’re bringing that warm, fuzzy feeling right to your very own kitchen table. ",
+        "BodyImage": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_02b.jpg",
+        "BodyImageCopy": "The white bathtub ring around Leak Mead",
+        "SubSectionTitle": "We all underestimate how much others appreciate us",
+        "SubSection": "Since humans lack the ability to read minds, we simply guess at what other people think of us. These hypotheses are informed by how people perceive themselves, and not by real-world feedback and criticism from those they’ve actually interacted with. These self-perceptions are often marred by negativity; when recalling past social interactions, people worried their jokes were subpar or that their conversation partner found them uncool. “We assume other people are thinking what we’re thinking,” Sandstrom says."
+      },
+      {
+        "$id": "news-3",
+        "MainImage": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_03.png",
+        "DetailImage": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_03a.png",
+        "ListImage": "",
+        "Title": "A retro hobby for the end of times",
+        "Section": "Hobby",
+        "Length": "6 min read",
+        "When": "Apr 19,2023",
+        "SourceLogo": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_source_03.png",
+        "SourceId": "Orion Post",
+        "Author": "Woodrow Trusty",
+        "IsFavorite": false,
+        "IsPro": false,
+        "Body": "Think about the last time someone showed you a small token of appreciation. Perhaps a stranger gave you a compliment, or maybe you got a check-in text from a friend, or received a particularly heartfelt thank-you note from a mentee. Chances are, that tiny act brightened your day. After all, there’s a delight in knowing you were on someone’s mind for even a brief moment.\n\nShe boiled a batch on the stove in her Northern California kitchen, ladled it into clean jars, and then put the jars in her pressure canner, a device with a locking lid similar to an Instant Pot. While they were processing (it takes about 75 minutes), she made a second batch to can. Eventually, she had eight pint jars of soup ready to eat, at a cost of only about $3 a jar — less than the price of a Big Mac.",
+        "BodyImage": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_03b.jpg",
+        "BodyImageCopy": "Women preparing pork products",
+        "SubSectionTitle": "Canning is about being prepared. Not everyone agrees on what that means.",
+        "SubSection": "For some people, the desire to stock a pantry in case of emergencies becomes something bigger and more political: a rejection of anything that smacks of “the system,” whether that’s corporate food producers, government agencies, or mainstream scientific research. Self-described rebel canners, for example, proudly go against food-safety guidelines, sometimes labeling them a form of government intrusion. They’ll can foods not considered to be safe to can, like milk or butter, or use practices that aren’t recommended, like reusing jar lids or canning food in an oven or dishwasher."
+      },
+      {
+        "$id": "news-4",
+        "MainImage": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_04.jpg",
+        "DetailImage": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_04a.jpg",
+        "ListImage": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_04l.jpg",
+        "Title": "Are 8 billion people too many — or too few?",
+        "Section": "Science",
+        "Length": "6 min read",
+        "When": "Apr 19,2023",
+        "SourceLogo": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_source_04.png",
+        "SourceId": "Science Times",
+        "Author": "Jacob Maxwell",
+        "IsFavorite": false,
+        "IsPro": false,
+        "Body": "On November 15, 2022, according to the demographers at the United Nations Population Division, the 8 billionth person on the planet was born.\nThat 8 billion mark is an estimate — there is no real-time census of everyone alive on Earth at every given moment, which means there’s a margin of error. But someone is or will be Baby 8 Billion.\n\nHe or she is most likely to be born in India, which had more than 23 million births in 2021, and which is projected to pass China as the world’s most populous country by mid-2023, according to data released by the UN on Wednesday. And he stands a better than even chance of being a he, since boys naturally outnumber girls at birth by a rate of about 105 to 100; in India, due to a mix of cultural preference for boys and access to sex-selective abortion, that rate is closer to 108 to 100. With an average life expectancy in India of just under 70 years today and rising, our hypothetical Baby 8 Billion stands a decent chance of being alive to witness the dawn of the 22nd century.",
+        "BodyImage": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_04b.jpg",
+        "BodyImageCopy": "Integer eget magna feugiat, lobortis dui eget",
+        "SubSectionTitle": "Overpopulation: The bomb that did not go off",
+        "SubSection": "To understand the core of overpopulation fears, you need to read Paul Ehrlich’s 1968 book The Population Bomb. Ehrlich wasn’t a demographer — he was an entomologist by training, who co-wrote the book with his wife Anne (although only Paul appeared as the author on the cover) at the behest of Sierra Club executive director David Brower, who was deeply worried about the environmental effects of population."
+      },
+      {
+        "$id": "news-5",
+        "MainImage": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_05.jpg",
+        "DetailImage": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_05a.jpg",
+        "ListImage": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_05l.jpg",
+        "Title": "Lab-grown blood could save your life",
+        "Section": "Science",
+        "Length": "6 min read",
+        "When": "Apr 19,2023",
+        "SourceLogo": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_source_05.png",
+        "SourceId": "The New Worker",
+        "Author": "Marion Renault",
+        "IsFavorite": false,
+        "IsPro": true,
+        "Body": "Certain parts of the human body, it turns out, are replaceable.\nWe’ve engineered artificial hearts that beat, dialysis machines that filter blood, cochlear implants that bypass acoustic hearing, and collagen scaffolds that help generate skin. We’ve synthesized and administered hormones for gender-affirming therapy, period suppression, birth control, cancer, menopause, and diabetes. We’ve designed prosthetics to replace not only limbs and digits but also noses, ears, breasts, and genitals. We’ve swapped out titanium for bones, gold for teeth, glass for eyes.\n\nAcross our physiological fabric, however, blood remains an inimitable and fragile thread. This precious, near-magical substance cannot yet be synthesized, manufactured, grown at scale, or stockpiled long term. Today, we have just one way to procure it for transfusion: the goodwill of donors, which often is not nearly enough to meet societal need, resulting in an “uncounted” number of deaths from trauma, postpartum hemorrhage, and childhood anemias.",
+        "BodyImage": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_05b.jpg",
+        "BodyImageCopy": "Integer eget magna feugiat, lobortis dui eget",
+        "SubSectionTitle": "Around the world, blood is in chronically short supply",
+        "SubSection": "During the pandemic, the blood supply shortage reached crisis levels in the US, as fewer people donated and blood donation centers struggled to survive financially. Last year, the American Red Cross announced it was facing its worst shortage in more than a decade and could only meet one-quarter of hospital demand. Overseas around the same time, the United Kingdom’s blood stock drained to about two days’ worth (they normally aim to stock enough for at least six days)."
+      },
+      {
+        "$id": "news-6",
+        "MainImage": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_06.jpg",
+        "DetailImage": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_06a.jpg",
+        "ListImage": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_06l.jpg",
+        "Title": "Colorado River has the biggest water cuts ever",
+        "Section": "Nature",
+        "Length": "7 min read",
+        "When": "Apr 15,2023",
+        "SourceLogo": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_source_06.png",
+        "SourceId": "Vox",
+        "Author": "Benji Jones",
+        "IsFavorite": true,
+        "IsPro": false,
+        "Body": "Even a winter packed with rain and snow could not bring the Colorado River crisis to an end. The river is still drying out. And on Tuesday, government officials announced two historic proposals to prevent the system and the some 40 million people it sustains from crashing.\n\nIn a room overlooking the Hoover Dam and Lake Mead, the nation’s largest reservoir, Bureau of Reclamation Commissioner Camille Calimlim Touton presented two potential strategies for protecting the system in the near term. They apply to the lower basin states — California, Arizona, and Nevada — and the proposals have vastly different consequences for each.",
+        "BodyImage": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_06b.jpg",
+        "BodyImageCopy": "Integer eget magna feugiat, lobortis dui eget",
+        "SubSectionTitle": "The complicated journey to the river’s extraordinary predicament, simplified",
+        "SubSection": "The authority of the Interior Department is broad, Beaudreau said, to operate the river’s dams in the interest of public safety. “At the end of the day,” he said, “it’s the secretary’s responsibility to keep this system operating.”"
+      },
+      {
+        "$id": "news-7",
+        "MainImage": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_07.jpg",
+        "DetailImage": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_07a.jpg",
+        "ListImage": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_07l.jpg",
+        "Title": "How the Recession paved the way for influencers",
+        "Section": "Economics",
+        "Length": "6 min read",
+        "When": "Apr 29,2023",
+        "SourceLogo": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_source_07.png",
+        "SourceId": "GNN News",
+        "Author": "GNN News",
+        "Follow": "Franco Delort",
+        "IsFavorite": false,
+        "IsPro": true,
+        "Body": "It was when I was researching a story on micro-famous LinkedIn users that I realized there truly was no escape from the influencer industry. If business bros with corporate jobs in tech and finance — stable, high-paying careers with cushy benefits! — felt the need to supplement their status (and possibly their income) by becoming influencers, what hope was there for the rest of us?\n\nI spoke to Hund about her book, where we discussed the past, present, and future of this paradigm shift and its effects on what we buy, post, and think. The following interview has been edited and condensed.",
+        "BodyImage": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_07b.jpg",
+        "BodyImageCopy": "Integer eget magna feugiat, lobortis dui eget",
+        "SubSectionTitle": "What happened in the 2000s that created a perfect storm for the rise of the influencer industry?",
+        "SubSection": "The economic crisis was the last straw that pushed this industry forward. Before that, we had lots of other factors that had been bubbling for a long time: in the US, the valorization of entrepreneurialism and self-branding, especially since the 1980s. We love public figures who we think are just being themselves and are still successful at whatever they do."
+      },
+      {
+        "$id": "news-8",
+        "MainImage": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_08.jpg",
+        "DetailImage": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_08a.jpg",
+        "ListImage": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_08l.jpg",
+        "Title": "Why you saw more ads on your Phone in 2023",
+        "Section": "Technology",
+        "Length": "6 min read",
+        "When": "Apr 19,2023",
+        "SourceLogo": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_source_08.png",
+        "SourceId": "Spline Journal",
+        "Author": "Alfredo Vetrovs",
+        "IsFavorite": false,
+        "IsPro": false,
+        "Body": "Apple is getting more aggressive about its ad business, and the company’s increasingly controversial control over its products is helping that business along. Last year, Apple used its power over the App Store to force apps to get users’ permission to collect data on them across other apps, a feature the company called App Tracking Transparency. This cut off a stream of data that helped power the advertising business of companies like Meta. Apple framed it as a pro-consumer privacy measure. And then, this year, Apple beefed up its own ad arm, which had ended up in an especially good position because it doesn’t rely on the data that App Tracking Transparency cut off. Maybe that was a coincidence. Maybe it wasn’t.\n\nI spoke to Hund about her book, where we discussed the past, present, and future of this paradigm shift and its effects on what we buy, post, and think. The following interview has been edited and condensed.",
+        "BodyImage": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_08b.png",
+        "BodyImageCopy": "Integer eget magna feugiat, lobortis dui eget",
+        "SubSectionTitle": "A brief history of Apple’s ad business",
+        "SubSection": "The digital ad market is dominated by Google, Meta, and, increasingly, Amazon. But Apple does have a tiny sliver. Much more importantly, it has something those companies don’t: exclusive access to you and your iPhone."
+      }
+    ]
+  },
+  "Highlights": {
+    "$id": "highlights",
+    "Data": [
+      {
+        "$ref": "news-1"
+      },
+      {
+        "$ref": "news-2"
+      },
+      {
+        "$ref": "news-3"
+      }
+    ]
+  },
+  "Profiles": {
+    "$id": "profiles",
+    "ProfileData": [
+      {
+        "$id": "profile-1",
+        "Avatar": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/profile_01.jpg",
+        "Name": "Tim Vetrovs",
+        "Job": "Passionate Writer",
+        "Quote": "I am a passionate writer, currently working as a Content Creator at FizzBuzz. Based in Prague.",
+        "Media1": "@Timbarton",
+        "Media1Icon": "",
+        "Media2": "www.tianavetrovs.com",
+        "Media2Icon": "",
+        "Articles": "",
+        "Followers": "",
+        "Following": ""
+      },
+      {
+        "$id": "profile-2",
+        "Avatar": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_source_05.png",
+        "Name": "The New Worker",
+        "Job": "Newsletter",
+        "Quote": "Reporting, Profiles, breaking news, cultural coverage.",
+        "Media1": "@newworker",
+        "Media1Icon": "",
+        "Media2": "www.newworker.news",
+        "Media2Icon": "",
+        "Articles": "1629",
+        "Followers": "235",
+        "Following": "327"
+      }
+    ]
+  },
+  "SourcesData": {
+    "$id": "sources",
+    "Sources": [
+      {
+        "$id": "source-1",
+        "Icon": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_source_01.png",
+        "Name": "EV Journal",
+        "IsFollowing": true
+      },
+      {
+        "$id": "source-2",
+        "Icon": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_source_02.png",
+        "Name": "CEH News",
+        "IsFollowing": false
+      },
+      {
+        "$id": "source-3",
+        "Icon": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_source_03.png",
+        "Name": "Orion Post",
+        "IsFollowing": false
+      },
+      {
+        "$id": "source-4",
+        "Icon": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_source_04.png",
+        "Name": "Science Times",
+        "IsFollowing": false
+      },
+      {
+        "$id": "source-5",
+        "Icon": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_source_05.png",
+        "Name": "The New Worker",
+        "IsFollowing": false
+      },
+      {
+        "$id": "source-6",
+        "Icon": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_source_06.png",
+        "Name": "Vox",
+        "IsFollowing": true
+      },
+      {
+        "$id": "source-7",
+        "Icon": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_source_07.png",
+        "Name": "GNN News",
+        "IsFollowing": false
+      },
+      {
+        "$id": "source-8",
+        "Icon": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_source_08.png",
+        "Name": "Spline Journal",
+        "IsFollowing": false
+      }
+    ]
+  },
+  "NewsMyProfilePage.xaml": {
+    "List": [
+      {
+        "$ref": "news-2"
+      },
+      {
+        "$ref": "news-4"
+      },
+      {
+        "$ref": "news-6"
+      },
+      {
+        "$ref": "news-7"
+      },
+      {
+        "$ref": "news-8"
+      }
+    ],
+    "ProfileData": {
+      "$ref": "profile-1"
+    }
+  },
+  "NewsSourceProfilePage.xaml": {
+    "List": [
+      {
+        "$ref": "news-4"
+      },
+      {
+        "$ref": "news-5"
+      },
+      {
+        "$ref": "news-6"
+      },
+      {
+        "$ref": "news-7"
+      },
+      {
+        "$ref": "news-8"
+      }
+    ],
+    "ProfileData": {
+      "$ref": "profile-2"
+    }
+  },
+  "NewsListPage.xaml": {
+    "List": [
+      {
+        "$ref": "news-4"
+      },
+      {
+        "$ref": "news-5"
+      },
+      {
+        "$ref": "news-6"
+      },
+      {
+        "$ref": "news-7"
+      },
+      {
+        "$ref": "news-8"
+      }
+    ],
+    "Featured": [
+      {
+        "$ref": "news-1"
+      },
+      {
+        "$ref": "news-2"
+      },
+      {
+        "$ref": "news-3"
+      }
+    ]
+  },
+  "NewsTopicsPage.xaml": {
+    "Topics": [
+      {
+        "Image": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_topic_01.jpg",
+        "SectionTitle": "Jogar",
+        "NewsCount": "Clique para jogar",
+        "When": "10 hours ago"
+      },
+      {
+        "Image": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_topic_02.jpg",
+        "SectionTitle": "Opções",
+        "NewsCount": "Mais dificuldade ?",
+        "When": "12 hours ago"
+      },
+      {
+        "Image": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_topic_03.jpg",
+        "SectionTitle": "Instruções",
+        "NewsCount": "Saiba como jogar",
+        "When": "1 hour ago"
+      },
+      {
+        "Image": "https://d3nz6a95rn0zd2.cloudfront.net/v4.0/news_topic_04.jpg",
+        "SectionTitle": "Sair",
+        "NewsCount": "",
+        "When": "40 mins ago"
+      }
+    ]
+  },
+  "NewsSourcesPage.xaml": {
+    "Sources": [
+      {
+        "$ref": "source-1"
+      },
+      {
+        "$ref": "source-2"
+      },
+      {
+        "$ref": "source-3"
+      },
+      {
+        "$ref": "source-4"
+      },
+      {
+        "$ref": "source-5"
+      },
+      {
+        "$ref": "source-6"
+      },
+      {
+        "$ref": "source-7"
+      },
+      {
+        "$ref": "source-8"
+      }
+    ]
+  },
+  "NewsDetailPage.xaml": {
+    "List": [
+      {
+        "$ref": "news-1"
+      },
+      {
+        "$ref": "news-2"
+      },
+      {
+        "$ref": "news-3"
+      },
+      {
+        "$ref": "news-4"
+      },
+      {
+        "$ref": "news-5"
+      },
+      {
+        "$ref": "news-6"
+      },
+      {
+        "$ref": "news-7"
+      },
+      {
+        "$ref": "news-8"
+      }
+    ],
+    "Sources": [
+      {
+        "$ref": "source-1"
+      },
+      {
+        "$ref": "source-2"
+      },
+      {
+        "$ref": "source-3"
+      },
+      {
+        "$ref": "source-4"
+      },
+      {
+        "$ref": "source-5"
+      },
+      {
+        "$ref": "source-6"
+      },
+      {
+        "$ref": "source-7"
+      },
+      {
+        "$ref": "source-8"
+      }
+    ]
+  },
+  "NewsMembershipPage.xaml": {
+    "Plans": [
+      {
+        "Name": "Annual",
+        "Price": "4.99",
+        "Description": "$59 billed annually as a recurring payment",
+        "IsRecommended": true
+      },
+      {
+        "Name": "Monthly",
+        "Price": "6.50",
+        "Description": "$6.50 billed monthly as a recurring payment",
+        "IsRecommended": false
+      }
+    ]
+  }
+}

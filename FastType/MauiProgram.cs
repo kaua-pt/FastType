@@ -1,3 +1,4 @@
+using FastType.ViewModels;
 using Microsoft.Extensions.Logging;
 using UXDivers.Grial;
 
@@ -26,7 +27,7 @@ namespace FastType
                     handlers.AddHandler<Entry, UXDivers.Grial.EntryHandler>();
                 })
                 .UseGrial();
-
+            builder.Services.AddTransient<GameViewModel>();
 #if DEBUG
             builder.Logging.AddDebug();
 #endif
