@@ -8,7 +8,7 @@
     BackgroundColor="{ DynamicResource BackgroundColor }"
     Title="">
 
-    <ScrollView>
+    <ScrollView x:DataType="vm:GameViewModel">
         <Grid
             RowDefinitions="*,*,*"
             Padding="{ OnIdiom

@@ -3,9 +3,11 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:FastType"
+    xmlns:vm="clr-namespace:FastType.ViewModels"
     x:Class="FastType.OptionsPage"
     BackgroundColor="{ DynamicResource BackgroundColor }"
     Title="Topics"
+    x:DataType="vm:OptionsViewModel"
     IconImageSource="pages.png"
     x:Name="root">
 
@@ -25,7 +27,6 @@
         </CollectionView.ItemsLayout>
         <CollectionView.ItemTemplate>
             <DataTemplate>
-                <!-- CollectionView Template -->
                 <Grid
                     RowDefinitions="*,Auto"
                     Padding="16,20"

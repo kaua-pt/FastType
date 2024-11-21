@@ -48,7 +48,10 @@
     <MauiAsset Remove="Resources\Raw\AboutAssets.txt" />
     <MauiAsset Remove="Resources\Raw\Words.json" />
   </ItemGroup>
-  <ItemGroup>
+	<PropertyGroup>
+		<MauiEnableXamlCBindingWithSourceCompilation>true</MauiEnableXamlCBindingWithSourceCompilation>
+	</PropertyGroup>
+	<ItemGroup>
     <PackageReference Include="CommunityToolkit.Mvvm" Version="8.3.2" />
     <PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
     <PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />

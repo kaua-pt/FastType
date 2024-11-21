@@ -1,8 +1,7 @@
-/* [grial-metadata] id: Grial#NewsTopicsViewModel.cs version: 1.0.1 */
 using CommunityToolkit.Mvvm.Input;
 using System.Collections.ObjectModel;
 
-namespace FastType;
+namespace FastType.ViewModels;
 
 public partial class OptionsViewModel : ObservableObject
 {
