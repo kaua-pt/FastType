@@ -11,8 +11,7 @@ namespace FastType
         public LabelHandler()
             : base(Mapper)
         {
-            Label.ControlsLabelMapper.AppendToMapping(nameof(Label.LineBreakMode), UpdateMaxLines);
-            Label.ControlsLabelMapper.AppendToMapping(nameof(Label.MaxLines), UpdateMaxLines);
+
         }
 
         private static void UpdateMaxLines(MauiLabelHandler handler, ILabel label)
