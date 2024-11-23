@@ -18,7 +18,7 @@ Este projeto é feito com o intuito de estudar DotNet 9 e Maui. Similar aos jogo
 
 O aplicativo é construido com o framework DotNetMaui, vindo da linguagem C#
 
-- Flutter 
+- Maui
 
 <!-- USAGE EXAMPLES -->
 ## ❓ Usabilidade
