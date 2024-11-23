@@ -5,7 +5,7 @@
 
   <p align="center">
     Um aplicativo para melhorar sua velocidade ao digitar! </br>
-    ✖️ Interrompido ✖️
+    Em construção
   </p>
 </div>
 
