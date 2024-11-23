@@ -12,25 +12,25 @@
 <!-- ABOUT THE PROJECT -->
 ## 🌎 Sobre o projeto
 
-Este projeto é feito com o intuito de estudar o framework Flutter. O aplicativo puxa dados de uma API de anime e os mostra na Homepage de acordo com oque é desejado pelo usuário. Há meios de favoritar alguns animes conforme o usuário logado.
+Este projeto é feito com o intuito de estudar DotNet 9 e Maui. Similar aos jogos de velocidade, ele pede para que você digite várias palavras que aparecem na tela, quanto mais certo voce digita, mais pontos você ganha.
 
 ## 🔨 Construído com
 
-O aplicativo é construido com o framework Flutter, vindo da linguagem Dart
+O aplicativo é construido com o framework DotNetMaui, vindo da linguagem C#
 
 - Flutter 
 
 <!-- USAGE EXAMPLES -->
 ## ❓ Usabilidade
 
-O projeto pode ser aplicado para procura de animes, assim como o site, My anime List.
+O projeto pode ser aplicado para acelerar a velocidade de digitação no celular
 
 <!-- ROADMAP -->
 ## ✔️ Checklist
 
-- [ ] Corrigir bug na HomeScreen de carregamento de dados
-- [ ] Fazer um atualizar senha
-- [ ] Fazer um esqueci minha senha
+- [ ] Remover warnings
+- [ ] Ligar tela principal com jogo
+- [ ] Criar telas opcionais
 
 <!-- LICENSE -->
 ## 💨 Licença
