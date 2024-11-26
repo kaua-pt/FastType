@@ -28,8 +28,6 @@ O projeto pode ser aplicado para acelerar a velocidade de digitação no celular
 <!-- ROADMAP -->
 ## ✔️ Checklist
 
-- [ ] Remover warnings
-- [ ] Ligar tela principal com jogo
 - [ ] Criar telas opcionais
 
 <!-- LICENSE -->
