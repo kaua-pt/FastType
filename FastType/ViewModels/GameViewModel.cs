@@ -20,6 +20,8 @@ public partial class GameViewModel : CommunityToolkit.Mvvm.ComponentModel.Observ
     [ObservableProperty]
     private double score = 0;
 
+    private DateTime BeganWordAt = DateTime.MinValue;
+
     public async Task LoadWordsAsync()
     {
         if (Words.Count <= 100)
@@ -44,12 +46,17 @@ public partial class GameViewModel : CommunityToolkit.Mvvm.ComponentModel.Observ
     [RelayCommand]
     public void ConfirmWord()
     {
+        int coeficient = Score <= 0 ? 1
+            : Math.Max(1, 10 - (int)((DateTime.UtcNow.Ticks - BeganWordAt.Ticks) / TimeSpan.TicksPerSecond));
+
         if (WrittenWord.Length == 0)
             return;
+
         var MatchScore = ScoreService.Match(SelectedWord, WrittenWord);
-        Score += MatchScore;
+        Score += MatchScore * coeficient;
 
         var wasSelected = SelectWord();
+        BeganWordAt = DateTime.UtcNow;
         WrittenWord = string.Empty;
         if (!wasSelected)
             FinishGame();
@@ -58,9 +65,9 @@ public partial class GameViewModel : CommunityToolkit.Mvvm.ComponentModel.Observ
     }
 
     [RelayCommand]
-    public void Surrender()
+    public async Task Surrender()
     {
-
+        await AppShell.Current.DisplayAlert("Desistiu", $"Sua pontuacao foi:{Score}", "Ok");
     }
 
     private bool SelectWord()
@@ -74,9 +81,9 @@ public partial class GameViewModel : CommunityToolkit.Mvvm.ComponentModel.Observ
         return true;
     }
 
-    private void FinishGame()
+    private async void FinishGame()
     {
-
+        await AppShell.Current.DisplayAlert("Final", $"Sua pontuacao foi:{Score}", "Ok");
     }
 
 

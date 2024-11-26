@@ -32,6 +32,11 @@ namespace FastType
             builder.Logging.AddDebug();
 #endif
 
+            builder.Services.AddTransient<GameViewModel>();
+            builder.Services.AddTransient<MenuViewModel>();
+            builder.Services.AddTransient<GamePage>();
+            builder.Services.AddTransient<MenuPage>();
+
             return builder.Build();
         }
     }

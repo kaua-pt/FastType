@@ -4,12 +4,9 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:FastType"
-    Shell.FlyoutBehavior="Disabled"
-    Title="FastType">
+    Shell.NavBarIsVisible="False"
+    Shell.FlyoutBehavior="Disabled">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
-
+    <ShellContent ContentTemplate="{DataTemplate local:MenuPage}" Route="MenuPage"/>
+    <ShellContent Route="GamePage" ContentTemplate="{DataTemplate local:GamePage}" />
 </Shell>

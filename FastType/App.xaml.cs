@@ -6,8 +6,11 @@ namespace FastType
         public App()
         {
             InitializeComponent();
+        }
 
-            MainPage = new NavigationPage(new FastType.GrialEasyNavigationPage());
+        protected override Window CreateWindow(IActivationState? activationState)
+        {
+            return new Window(new FastType.AppShell());
         }
     }
 }

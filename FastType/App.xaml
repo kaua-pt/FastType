@@ -100,14 +100,6 @@
             </Style>
 
             <Style
-                TargetType="local:RoundedIcon"
-                ApplyToDerivedTypes="True">
-                <Setter
-                    Property="IconFontFamily"
-                    Value="{ DynamicResource IconsFontFamily }" />
-            </Style>
-
-            <Style
                 TargetType="Entry"
                 ApplyToDerivedTypes="true">
                 <Setter
