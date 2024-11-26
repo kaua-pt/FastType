@@ -1,5 +1,4 @@
 using FastType.ViewModels;
-using Microsoft.Extensions.Logging;
 using UXDivers.Grial;
 
 namespace FastType
