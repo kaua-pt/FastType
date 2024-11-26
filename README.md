@@ -5,7 +5,7 @@
 
   <p align="center">
     Um aplicativo para melhorar sua velocidade ao digitar! </br>
-    Em construção
+    Finalizado
   </p>
 </div>
 
@@ -24,11 +24,6 @@ O aplicativo é construido com o framework DotNetMaui, vindo da linguagem C#
 ## ❓ Usabilidade
 
 O projeto pode ser aplicado para acelerar a velocidade de digitação no celular
-
-<!-- ROADMAP -->
-## ✔️ Checklist
-
-- [ ] Criar telas opcionais
 
 <!-- LICENSE -->
 ## 💨 Licença
